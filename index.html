@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="css/Stylesheet.css">
+</head>
+<body>
+
+<header>
+  <div class="top-bar">
+    <div class="logo">
+      <img src="path-to-logo.png" alt="Boostwork Logo" class="boostwork-logo">
+    </div>
+    <div class="nav-links">
+      <a href="#">About Us</a>
+      <a href="#">Full List</a>
+      <a href="#">Contact Us</a>
+    </div>
+  </div>
+</header>
+
+<img src="path-to-logo.png" alt="Boostwork Logo" class="boostwork-logo">
+<input type="text" placeholder="Search AI Tools..." class="search-bar">
+
+<div class="category-select">
+  <select id="category-dropdown">
+    <option value="" disabled selected>Select a Category</option>
+  </select>
+</div>
+
+<!-- ✅ Dynamic tool container -->
+<div class="container" id="tool-container">
+  <!-- Tools will be injected here -->
+</div>
+
+
+<footer>
+  <p>boostwork.ai &copy; 2025. All rights reserved.</p>
+</footer>
+
+<!-- ✅ Script to load tools from JSON (embedded) -->
+
+</body>
+</html>
+<script src="./js/datafetch.js"> </script>
