@@ -31,7 +31,7 @@ app.get('/data', (req, res) => {
 });
 
 
-app.post('/', (req, res) => {
+app.post('/data', (req, res) => {
   const password = req.headers['key']; // or 'authorization'
   if (password === 'JFLKDASJFLKASDJFDALSKJFASDKLFJRIOQEWREWQBNRBWQEMNRBWMQNEBRMNWQEBRNMB32M1N4B132M4B123NM4123NB42B3VCYCXZ7ZX7C9Z8X7CZ7898C97EHJB34N32B1M4NB132MN4231BM') {
     currentdata = req.body;
